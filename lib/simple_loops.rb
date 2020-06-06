@@ -23,4 +23,11 @@ def output_array (array)
   end
 end 
 
-def 
+def return_string_array (array)
+  count = 0 
+  new_arr = []
+  while count < array.length do 
+   new_array << array[count]
+    count += 1 
+  end
+end 
